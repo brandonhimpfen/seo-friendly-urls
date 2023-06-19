@@ -1,0 +1,32 @@
+{
+  "name": "seo-friendly-urls",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Brandon Himpfen",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandonhimpfen/seo-friendly-urls.git"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "slugify": "^1.6.6"
+  },
+  "description": "The \"seo-friendly-urls\" package is a utility that helps convert strings to SEO-friendly URLs by removing special characters and stop words.",
+  "bugs": {
+    "url": "https://github.com/brandonhimpfen/seo-friendly-urls/issues"
+  },
+  "homepage": "https://github.com/brandonhimpfen/seo-friendly-urls#readme",
+  "devDependencies": {
+    "mocha": "^9.2.2"
+  },
+  "keywords": [
+    "seo",
+    "urls",
+    "links",
+    "url",
+    "link"
+  ]
+}
